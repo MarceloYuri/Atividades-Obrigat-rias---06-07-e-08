@@ -2,11 +2,11 @@ public class Main {
     public static void main(String[] args) {
         Biblioteca biblioteca = new Biblioteca(5);
 
-        ItemBiblioteca livro1 = new Livro("L001", "Clean Code");
-        ItemBiblioteca livro2 = new Livro("L002", "Arquitetura Limpa");
-        ItemBiblioteca livro3 = new Livro("L003", "Refatoração");
-        ItemBiblioteca livro4 = new Livro("L004", "O Codificador Limpo");
-        ItemBiblioteca revista1 = new Revista("R001", "National Geographic");
+        ItemBiblioteca livro1 = new Livro("L001", "Harry Potter e a Pedra Filosofal");
+        ItemBiblioteca livro2 = new Livro("L002", "O Senhor dos Anéis");
+        ItemBiblioteca livro3 = new Livro("L003", "O Hobbit");
+        ItemBiblioteca livro4 = new Livro("L004", "Star Wars");
+        ItemBiblioteca revista1 = new Revista("R001", "Recreio");
 
         biblioteca.adicionarItem(livro1);
         biblioteca.adicionarItem(livro2);
